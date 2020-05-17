@@ -1,0 +1,443 @@
+/* styles for the fusion landing page */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+nav {
+  margin: 10px 100px;
+}
+
+.link {
+  margin-left: 60%;
+  margin-top: -2.5%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4f4f4f;
+  font-size: 14px;
+}
+
+.first {
+  margin: 150px 100px;
+}
+
+.first h1 {
+  font-size: 40px;
+}
+
+.first p {
+  color: #abacae;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.download {
+  border: none;
+  background: #f63854;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.learn {
+  border: 1px solid #f63854;
+  background: #fff;
+  color: #f63854;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right {
+  margin-left: 60%;
+  margin-top: -22%;
+}
+
+.services {
+  margin: 150px 100px;
+}
+
+.services h1 {
+  font-size: 30px;
+}
+
+.block1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.block1 h2 {
+  color: #585b60;
+  text-align: center;
+}
+
+.block1 p {
+  color: #abacae;
+  text-align: center;
+}
+
+.awesome {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 350px;
+  padding: 30px 0 20px 0;
+}
+
+.awesome h2,
+p {
+  padding-top: 25px;
+}
+
+.block2 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.block2 h2 {
+  color: #585b60;
+  text-align: center;
+}
+
+.block2 p {
+  color: #abacae;
+  text-align: center;
+}
+
+.stat {
+  background-color: #f9f9f9;
+  padding: 140px 100px;
+}
+
+.stat p {
+  color: #abacae;
+  line-height: 1.5;
+}
+
+.stat h1 {
+  padding: 15px 0 15px 0;
+  font-size: 30px;
+}
+
+.read {
+  border: none;
+  background: #f63854;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.statistics {
+  margin-left: 55%;
+  margin-top: -35%;
+}
+
+.features {
+  margin: 80px 30px;
+  padding: 10px 0 10px 10px;
+}
+
+.features h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.features p {
+  color: #abacae;
+}
+
+.text {
+  width: 260px;
+}
+
+.text h1,
+p {
+  text-align: justify;
+}
+
+.top {
+  border: 2px solid #fff;
+  background-color: beige;
+  border-radius: 5px;
+  height: 120px;
+  width: 300px;
+  padding: 15px 40px 10px 15px;
+}
+
+.middle {
+  border: 2px solid #fff;
+  background-color: beige;
+  border-radius: 5px;
+  height: 120px;
+  width: 300px;
+  padding: 15px 40px 10px 15px;
+  margin-top: 20px;
+}
+
+.bottom {
+  border: 2px solid #fff;
+  background-color: beige;
+  border-radius: 5px;
+  height: 120px;
+  width: 300px;
+  padding: 15px 40px 10px 15px;
+  margin-top: 20px;
+}
+
+.house {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.team {
+  background-color: #f9f9f9;
+  height: 570px;
+  padding: 80px 80px 0 90px;
+}
+
+.team h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sub {
+  color: #abacae;
+}
+
+.teambox {
+  margin-top: 50px;
+}
+
+.smithtext {
+  background: #fff;
+  margin-left: 17%;
+  margin-top: -17.3%;
+  width: 340px;
+  height: 180px;
+  padding: 20px 0 0 30px;
+}
+
+.icon {
+  margin-top: 5%;
+}
+
+.eric {
+  margin-left: 50%;
+  margin-top: -17%;
+}
+
+.erictext {
+  background: #fff;
+  margin-left: 34%;
+  margin-top: -35%;
+  width: 340px;
+  height: 180px;
+  padding: 20px 0 0 30px;
+}
+
+.babb {
+  margin-top: 40px;
+}
+
+.otte {
+  margin-left: 50%;
+  margin-top: -17%;
+}
+
+.ottetext {
+  background: #fff;
+  margin-left: 34%;
+  margin-top: -35%;
+  width: 340px;
+  height: 180px;
+  padding: 20px 0 0 30px;
+}
+
+.pricing {
+  padding: 80px 80px 40px 90px;
+}
+
+.pricing h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.pricebox {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro {
+  border: 1px solid #fff;
+  width: 27%;
+  padding: 15px 30px;
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail h2,
+h3,
+p {
+  text-align: center;
+}
+
+.details p {
+  color: #abacae;
+}
+
+.buy {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: #f63854;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.plus {
+  border: 1px solid #fff;
+  width: 27%;
+  padding: 15px 30px;
+}
+
+.premium {
+  border: 1px solid #fff;
+  width: 27%;
+  padding: 15px 30px;
+}
+
+.testimonial {
+  background: #f63854;
+  padding: 80px 80px 70px 90px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  margin-left: 40%;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anaya {
+  width: 27%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 45px 20px;
+}
+
+.david {
+  width: 27%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 45px 20px;
+}
+
+.domeni {
+  width: 27%;
+  background: #fff;
+  border-radius: 5px;
+  padding: 45px 20px;
+}
+
+.register {
+  padding: 30px 70px 40px 80px;
+}
+
+.reg {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: #f63854;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+  float: right;
+  margin-top: -5%;
+}
+
+.contact {
+  padding: 50px 110px 40px 90px;
+  background: #f9f9f9;
+}
+
+.form {
+  width: 63%;
+  margin-top: 30px;
+}
+
+.form input {
+  padding: 10px;
+  width: 95.5%;
+}
+
+.send {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 20px;
+  background: #f63854;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.map {
+  width: 35%;
+  float: right;
+  margin-top: -29%;
+  height: 250px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 120px 90px 50px 90px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.media {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #abacae;
+}
+
+footer p {
+  color: #abacae;
+}
